@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_abhtha_goHelloWorldServer_1727607204950-pr-trigger-input-set
+  identifier: Build_abhtha_goHelloWorldServer_1727607204950prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CI_kubernetes_tutorial
+  pipeline:
+    identifier: Build_abhtha_goHelloWorldServer_1727607204950
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>

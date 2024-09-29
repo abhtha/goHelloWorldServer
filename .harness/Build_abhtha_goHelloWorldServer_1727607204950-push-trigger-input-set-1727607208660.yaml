@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_abhtha_goHelloWorldServer_1727607204950-push-trigger-input-set
+  identifier: Build_abhtha_goHelloWorldServer_1727607204950pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CI_kubernetes_tutorial
+  pipeline:
+    identifier: Build_abhtha_goHelloWorldServer_1727607204950
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
